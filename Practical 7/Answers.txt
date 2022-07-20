@@ -1,0 +1,3 @@
+a) SecuritySystem.java is refactored. All other classes have been created accordingly and refactored accordingly.
+
+b) An Example and light testing for SecuritySystem.java is provided in the file Injector.java

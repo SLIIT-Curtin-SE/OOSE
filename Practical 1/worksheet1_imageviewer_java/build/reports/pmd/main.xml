@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.43.0" timestamp="2022-03-14T11:32:25.928">
+<file name="/mnt/c/Users/sahas/Curtin/Curtin - Year2Sem1/COMP2003/Practical 1/worksheet1_imageviewer_java/src/main/java/Album.java">
+<violation beginline="2" endline="2" begincolumn="1" endcolumn="19" rule="UnnecessaryImport" ruleset="Code Style" package="edu.curtin.imageviewer" class="Album" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.*'
+</violation>
+</file>
+<file name="/mnt/c/Users/sahas/Curtin/Curtin - Year2Sem1/COMP2003/Practical 1/worksheet1_imageviewer_java/src/main/java/MainApplication.java">
+<violation beginline="66" endline="66" begincolumn="61" endcolumn="65" rule="UnusedFormalParameter" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainApplication" method="readAlbumFile" variable="album" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'album'.
+</violation>
+<violation beginline="77" endline="77" begincolumn="28" endcolumn="40" rule="UnusedLocalVariable" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainApplication" method="readAlbumFile" variable="imageFilename" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'imageFilename'.
+</violation>
+<violation beginline="78" endline="78" begincolumn="28" endcolumn="39" rule="UnusedLocalVariable" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainApplication" method="readAlbumFile" variable="imageCaption" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'imageCaption'.
+</violation>
+<violation beginline="78" endline="78" begincolumn="43" endcolumn="44" rule="UnusedAssignment" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainApplication" method="readAlbumFile" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'imageCaption' is never used (overwritten on line 81)
+</violation>
+<violation beginline="81" endline="81" begincolumn="40" endcolumn="47" rule="UnusedAssignment" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainApplication" method="readAlbumFile" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The value assigned to variable 'imageCaption' is never used
+</violation>
+</file>
+<file name="/mnt/c/Users/sahas/Curtin/Curtin - Year2Sem1/COMP2003/Practical 1/worksheet1_imageviewer_java/src/main/java/MainWindow.java">
+<violation beginline="107" endline="107" begincolumn="45" endcolumn="49" rule="UnusedFormalParameter" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainWindow" method="prevBtnHandler" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="118" endline="118" begincolumn="45" endcolumn="49" rule="UnusedFormalParameter" ruleset="Best Practices" package="edu.curtin.imageviewer" class="MainWindow" method="nextBtnHandler" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.43.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+</file>
+</pmd>

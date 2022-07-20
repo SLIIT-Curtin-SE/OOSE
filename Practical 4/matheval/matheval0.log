@@ -1,0 +1,82 @@
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parse
+FINE: parse function called with string value (x + 1 + ( x * 2)
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: parseAdd function called with string value [(, x, +, 1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: parseMul function called with string value [(, x, +, 1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: parsePrimary function called with string value [(, x, +, 1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: token is (
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: Sub-expression inside brackets
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: parseAdd function called with string value [x, +, 1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: parseMul function called with string value [x, +, 1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: parsePrimary function called with string value [x, +, 1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: token is x
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: Variable value x in equation creating new XValue object
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: token is +
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: Multiplicative sequence over, token pushed back onto list
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: token is +
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: Calling the function AddOperator()
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: parseMul function called with string value [1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: parsePrimary function called with string value [1, +, (, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: token is 1
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: Literal number found in token
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: token is +
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: Multiplicative sequence over, token pushed back onto list
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: token is +
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: Calling the function AddOperator()
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: parseMul function called with string value [(, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: parsePrimary function called with string value [(, x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: token is (
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: Sub-expression inside brackets
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: parseAdd function called with string value [x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: parseMul function called with string value [x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: parsePrimary function called with string value [x, *, 2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: token is x
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: Variable value x in equation creating new XValue object
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: token is *
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: Calling the function MulOperator()
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: parsePrimary function called with string value [2, )]
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: token is 2
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parsePrimary
+FINE: Literal number found in token
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: token is )
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseMul
+FINE: Multiplicative sequence over, token pushed back onto list
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: token is )
+Apr 05, 2022 6:25:49 PM edu.curtin.matheval.ExprParser parseAdd
+FINE: Additive sequence over, token pushed onto the list

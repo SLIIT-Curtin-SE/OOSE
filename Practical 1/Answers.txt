@@ -1,0 +1,26 @@
+1) Discussion: Multiplicity
+    (a) 
+        1. List of Industry Objects
+        2. Government Object 
+        3. List of City Objects
+    (b) 
+        * A map has faster retrieving and updating speeds
+        in comparison to a list.
+        * The Industry Label and the City Name can be the keys since they 
+        will be unique to each country which makes it a good fit for the map. The values can be the respective Objects. 
+    (c) No it wouldn't make sense as the Nation does not contain the attribute population.
+        It is better to implement the getPopulation() and setPopulation() methods to the City class.
+    (d) The Nation class could have accessors to access the Objects in the List (Industry, City, Government),
+        including a SetName() and GetName()
+
+2) 
+    (a) getProperty(), setProperty(), updateAddress(), updateProperty(), deleteAddress()
+    (b) First you would fectch the Property Object using the map at the old address and store 
+        it temporarily. Then after after storing in a temp variable of type Property you would delete the record from the map.
+        Afterwards you would insert the key value pair of new address and the object stored in the map.
+
+3) Looks like it is trying to add a repition of each three letters as new elements to the end of the list. However, it cannot do so 
+as it throws a Exception due to using the for-each loop. 
+
+The way in which to change this would be a normal for loop with a counter until the length of list. 
+

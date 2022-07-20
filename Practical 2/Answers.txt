@@ -1,0 +1,62 @@
+1.
+    (a) GeographicalFeature var = new Mountain()
+    (b) Mountain var = new Volcano()
+    (c) Mountain var = new Mountain()
+        GeographicalFeature var2 = var;
+    (d) public Nation createNation(Monarchy x)
+        {
+            return new Nation(x.getName())
+        }
+    (e) public Nation getBetterPlace(Place p)
+        {
+            if (p instanceof Anarchy)
+            {
+                return new Republic();
+            }
+            else if (p instanceof Valley)
+            {
+                return new Volcano();
+            }
+            return null;
+        }
+    (f) private boolean isInside(GeographicalFeature f, Nation y) {...}
+
+        public GeographicalFeature findInside(GeographicalFeature thing, List<Nation> nationList)
+        {
+            for (Nation nat : nationList)
+            {
+                if (isInside(thing, nat))
+                {
+                    return thing;
+                }
+            }
+            return null;
+        }
+    (g) public void find(List<Nation> list, int code)
+        {
+            for (Nation element : List)
+            {
+                if (test(element, code))
+                {
+                    System.out.println(element.getName());
+                }
+            }
+        }
+
+        public boolean test(Nation element, int code)
+        {
+            return element.getPrefix() == code;
+        }
+
+2. In the class InputStream we have the abstract function -> public abstract int read() which requires a subclass to provide an implementation
+    that is done in the form of public int read(byte[] b)
+
+   In the class OutputStream we have the abstract function -> public abstract void write(int b) which requires a subclass to provide an implementation
+   that is done in the form of public void write(bye[] b)
+
+   This shows that a concrete method calls an abstract method in the same class and is considered to be a template method.
+
+3. 
+
+
+    
